@@ -1,0 +1,23 @@
+#JSGF V1.0;
+
+grammar menu;
+
+import <names.>;
+
+public <item> = <command>;
+
+<command> = (<beginpolite>)* <action>(<endpolite>)*;
+
+<action> = (<call>{call} <object>| <SMS>{text} <object>| <search>);
+<object> = <names>;
+
+<call> = call | phone | talk to;
+
+<SMS> = message | text | hit up;
+
+<search> = search | lookup;
+
+
+<beginpolite> = please | could you | would you be able to | can you | would you | kindly;
+
+<endpolite> = for me | please | and | thank you;

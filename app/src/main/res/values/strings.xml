@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">D2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reckognize">Reckognize</string>
+
+
+    <string name="kws_caption">To start demonstration say \"Jono Wake up\".</string>
+    <string name="menu_caption">I am listening.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="WEB_caption">To search something on the web</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+    <string name="search_bar"></string>
+    <string name="edit_search">Enter Search</string>
+</resources>

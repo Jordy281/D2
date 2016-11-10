@@ -1,3 +1,6 @@
+pocketsphinx-android-5prealpha-nolib.jar
+app/libs/pocketsphinx-android-5prealpha-nolib.jar
+*.lm
 # Built application files
 *.apk
 *.ap_
